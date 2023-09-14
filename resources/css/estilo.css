@@ -1,0 +1,33 @@
+
+.cabecera {
+    background-color: black;
+    color: white;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+.td-small {
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #2d2c2c;
+}
+.td-small1 {
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid #2d2c2c;
+}
+table {
+    font-size: 14px;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+th, td {
+    text-align: center;
+    vertical-align: middle;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}

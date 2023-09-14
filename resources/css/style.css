@@ -1,0 +1,44 @@
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+
+    .image-item {
+        text-align: center;
+        border: 1px solid #ccc;
+        padding: 10px;
+        transition: transform 0.3s ease;
+        height: 300px;
+    }
+
+    .image-item:hover {
+        transform: scale(1.1);
+    }
+
+    .image-item img {
+        max-width: 100%;
+        max-height: 70%;
+        object-fit: contain;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .button-container {
+        margin-top: 10px;
+    }
+
+    button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+

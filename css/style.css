@@ -1,0 +1,85 @@
+
+/*
+El siguiente bloque de código, gestiona algunos atributos necesarios para el diseño
+*/
+.back{
+    background: #283794;
+    color: white;
+}
+.back_c{
+    background: white;
+    color: #283794;
+}
+.transparent{
+    background: transparent;
+    color: rgb(133, 127, 127);
+    border-radius: 50px;
+}
+.bordernone{
+    border: none;
+    text-align: center;
+}
+.btnsessionstart{
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #283794;
+}
+
+/*Con el siguiente código administramos la función de introducir los iconos a los inputs*/
+
+.input-wrapper {
+position: relative;
+
+}
+
+.input {
+box-sizing: border-box;
+color: #191919;
+padding: 15px 15px 15px 35px;
+width: 100%;
+}
+
+.input-icon {
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 12px;
+top: 50%;
+transform: translateY(-50%);
+}
+.banner{
+    background-color: #1185EA;
+    color: white;
+    width: 50vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+.section_t{
+    background-color: transparent;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: start;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    
+}
+body{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.primary_color{
+    color: #283794;
+}
+.primary_background{
+    background-color: #283794;
+}
