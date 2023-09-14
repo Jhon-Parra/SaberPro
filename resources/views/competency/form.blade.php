@@ -26,5 +26,10 @@
         <button type="submit" class="btn btn-primary">{{ __('Submit') }}</button>
         <a href="{{ route('competencies.index') }}" class="btn btn-secondary">Cancel</a>
 
+
+
+
+
+
     </div>
 </div>
